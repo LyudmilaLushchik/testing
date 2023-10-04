@@ -1,4 +1,4 @@
-import { calculateTotal } from '../calculate';
+import calculateTotal from '../calculate';
 
 // test('description', work);
 test('basic test', () => {
@@ -24,7 +24,6 @@ test('calculateTotal sum without discount', () => {
   const result = calculateTotal(list);
   expect(result).toBe(2500); // результат теста будет недостоверным, если убрать expect..
 });
-
 
 test('calculateTotal sum with discount', () => {
   const list = [
