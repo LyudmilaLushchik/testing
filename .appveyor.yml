@@ -1,5 +1,7 @@
 image:  Ubuntu1804 # образ для сборки
-stack: node 12 # окружение
+# stack: node 12 # окружение
+environment:
+  nodejs_version: "18"
 branches:
   only:
   - main # ветка git
